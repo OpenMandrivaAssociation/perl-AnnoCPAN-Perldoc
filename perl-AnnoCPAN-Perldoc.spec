@@ -18,6 +18,7 @@ BuildRequires: perl(DBI)
 BuildRequires: perl(Digest::MD5)
 BuildRequires: perl(IO::String)
 BuildRequires: perl(Pod::Perldoc)
+BuildRequires: perl(Test::Pod)
 
 BuildArch: noarch
 
