@@ -55,8 +55,8 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc README
+%{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
 /usr/bin/annopod
-/usr/share/man/man1/annopod.1.lzma
 
