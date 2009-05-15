@@ -1,7 +1,7 @@
 
 %define realname   AnnoCPAN-Perldoc
 %define version    0.10
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{realname}
 Version:    %{version}
