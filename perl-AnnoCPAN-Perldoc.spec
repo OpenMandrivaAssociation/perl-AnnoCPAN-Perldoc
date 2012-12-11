@@ -59,3 +59,28 @@ rm -rf %buildroot
 %{_mandir}/man3/*
 %perl_vendorlib/*
 /usr/bin/annopod
+
+
+%changelog
+* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 0.100.0-2mdv2011.0
++ Revision: 654862
+- rebuild for updated spec-helper
+
+* Wed Feb 10 2010 Jérôme Quelin <jquelin@mandriva.org> 0.100.0-1mdv2011.0
++ Revision: 503915
+- rebuild using %%perl_convert_version
+
+* Fri May 15 2009 Jérôme Quelin <jquelin@mandriva.org> 0.10-2mdv2010.0
++ Revision: 376126
+- fixing man1 %%files
+- rebuild
+
+* Tue Mar 31 2009 Jérôme Quelin <jquelin@mandriva.org> 0.10-1mdv2009.1
++ Revision: 362925
+- adding missing prereq
+- import perl-AnnoCPAN-Perldoc
+
+
+* Tue Mar 31 2009 cpan2dist 0.10-1mdv
+- initial mdv release, generated with cpan2dist
+
